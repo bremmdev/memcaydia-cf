@@ -3,6 +3,11 @@ name = "memcaydia-cf"
 main = "src/index.ts"
 compatibility_date = "2024-09-25"
 
+[[d1_databases]]
+binding = "DB" # i.e. available in your Worker on env.DB
+database_name = "memcaydia-db"
+database_id = "c1843bf2-4368-47ad-b556-db94957bf3c0"
+
 # Workers Logs
 # Docs: https://developers.cloudflare.com/workers/observability/logs/workers-logs/
 # Configuration: https://developers.cloudflare.com/workers/observability/logs/workers-logs/#enable-workers-logs
